@@ -2,39 +2,33 @@
 <html>
 
 <head>
-	<link href="style.css" type="text/css" rel="stlyesheet"/>
+	<link href="style.css" type="text/css" rel="stylesheet"/>
 	<title>Google</title>
 
 </head>
 <body>
-	<div id="wrapper">
-
-		<div class="nav">
-		<p>Gmail</p>
-		<p>Images</p>
-		<img id="signin" type="submit" value="Sign in">
+	<div class="topnav">
+		<ul>
+			<a href="#"><li><img id="profile" src="profile.png"/></li></a>
+			<a href="#"><li><div class="notButton"></div></li></a>
+			<a href="#"><li><div class="appbutton"></div></li></a>
+			<li id="images"><a href="https://www.google.se/imghp?hl=en&tab=wi&ei=exOBWMnVFYOlsAHGk4-QBA&ved=0EKouCBcoAQ">Images</a></li>
+			<li id="gmail"><a href="www.mail.google.com">Gmail</a></li>
+		</ul>
 		</div>
 
-		<div class="logo">
-			<img src="media/google.logo.png" alt="Google">
+		<div class="body">
+		<img id="logo" src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" alt="Google Logo">
+			<div id="search-container">
+				<form>
+				<input type="text" name="search">
+				<br>
+				<img class="mic" src="microphone.png" alt="mic">
+				<input class="button" type="submit" value="Google Search">
+				<input class="button" type="submit" value="I'm Feeling Lucky">
+				</form>
 			</div>
-
-			<form class="searcher" alt="SEarch">
-			<input id=sb type="text" name="search"><br>
-			<input id="sbutton" type="submit" value="Google Search">
-			<input id="lbutton" type="submit" value="I'm feeling lucky">
-			</form>
-
-		<div class="footer">
-		<ul class="left">
-			<li>Advertising</li>
-			<li>Business</li>
-			<li>About</li>
-			<li>Settings</li>
-		</ul>
-
-	</div>
-</div>
+		</div>
 
 </body>
 </html>
